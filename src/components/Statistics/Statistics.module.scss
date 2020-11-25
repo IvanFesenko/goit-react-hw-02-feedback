@@ -1,0 +1,38 @@
+.statistics {
+  display: block;
+
+  .title {
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .statsList {
+    list-style: none;
+    max-width: 350px;
+    margin: 0 auto;
+
+    .item {
+      font-size: 16px;
+      &::first-letter {
+        text-transform: uppercase;
+      }
+      .value {
+        font-size: 18px;
+        position: relative;
+      }
+
+      .positive::after {
+        content: "%";
+        font-size: 18px;
+        position: absolute;
+        color: #000;
+        top: 0;
+      }
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}

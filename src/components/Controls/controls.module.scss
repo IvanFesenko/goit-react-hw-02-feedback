@@ -1,0 +1,14 @@
+.btn {
+  display: flex;
+  width: 90px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: 0 auto;
+}
